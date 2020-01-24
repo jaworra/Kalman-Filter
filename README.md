@@ -1,3 +1,9 @@
+## Kalman Filter
+
+#### Dependecies
+ - R
+
+#### Summary
 Forecasting the commodity value is a challenging process due to the stochastic non-linear
 nature of the financial market. While there have been a number studies on statistical and
 filtering techniques for stock market prediction, this paper improves on the current literature
