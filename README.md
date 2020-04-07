@@ -1,7 +1,12 @@
 ## Kalman Filter
 
-#### Dependecies
- - R
+#### Models
+Directly in Windows (languages,libraries,setup)
+ - R version 3.3 (dlm,ggplot2,zoo,gridExtra,KFAS)
+ - Rstudio
+
+#### Report
+- pdf
 
 #### Summary
 Forecasting the commodity value is a challenging process due to the stochastic non-linear
@@ -39,7 +44,7 @@ The first step obtains a priori estimates of probability of states, then Bayes r
 calculate a better estimate of probability. Bayes rules are describe below,
 Consider two normal probability distributions given by,
 <p align="center">
-<img src="lib\images\two_normal_dist.png" width=200>
+<img src="lib\images\two_normal_dist.png" width=250>
 </p>
 
 Bayesian probability is therefore given by,
@@ -50,8 +55,8 @@ Bayesian probability is therefore given by,
 The final form of the Kalman filter state propagation (prediction) and measurement update with dynamic system in the following form ([Kalman, 1960](http://160.78.24.2/Public/Kalman/Kalman1960.pdf)). 
 
 <p align="center">
-<img src="lib\images\final_kalman_form.png" width=500>
-<img src="lib\images\lemma.png" width=500>
+<img src="lib\images\final_kalman_form.png" width=600>
+<img src="lib\images\lemma.png" width=400>
 </p>
 
 
@@ -62,7 +67,7 @@ To evaluating the performance of the non-linear and linear based models the foll
 
 
 <p align="center">
-<img src="lib\images\performance_metrics.png" width=300>
+<img src="lib\images\performance_metrics.png" width=350>
 </p>
 <p align="center">
 <img src="lib\images\figure2.png" width=500>
