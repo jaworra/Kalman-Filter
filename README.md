@@ -1,8 +1,8 @@
 ## Kalman Filter
 
 #### Models
-Directly in Windows (languages,libraries,setup)
- - R version 3.3 (dlm,ggplot2,zoo,gridExtra,KFAS)
+Directly in Windows (languages, libraries, setup)
+ - R version 3.3 (dlm, ggplot2, zoo, gridExtra, KFAS)
  - Rstudio
 
 #### Report
